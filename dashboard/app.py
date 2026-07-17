@@ -20,7 +20,7 @@ st.caption("Subscriber churn risk monitoring — skeleton build")
 # --- API status check ---
 try:
     resp = requests.get(f"{API_URL}/health", timeout=5)
-    api_status = "online" if resp.status_code == 200 else "🔴 unreachable"
+    api_status = "online" if resp.status_code == 200 else "unreachable"
 except requests.exceptions.RequestException:
     api_status = "unreachable"
 
@@ -29,9 +29,8 @@ st.sidebar.markdown(f"`{API_URL}`")
 
 st.warning(
     "This is a skeleton deployment. Model, KPIs, and the risk table below are "
-    "placeholders until the trained model is wired in.",
-    icon="",
-)
+    "placeholders until the trained model is wired in."
+    )
 
 # --- placeholder KPI row ---
 col1, col2, col3, col4 = st.columns(4)
