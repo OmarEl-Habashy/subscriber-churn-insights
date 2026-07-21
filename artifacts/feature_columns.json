@@ -1,0 +1,17 @@
+[
+  "gender",
+  "tot_songs",
+  "listen_time",
+  "num_thumb_up",
+  "num_thumb_down",
+  "add_to_playlist",
+  "tot_friends",
+  "lt",
+  "avg_played_songs",
+  "tot_artist_played",
+  "days_since_last_session",
+  "downgrade_flag",
+  "negative_ratio",
+  "sessions_per_week",
+  "ads_per_session"
+]
